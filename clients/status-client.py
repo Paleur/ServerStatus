@@ -6,7 +6,6 @@ USER = "USER"
 PASSWORD = "USER_PASSWORD"
 INTERVAL = 1 #更新间隔，单位：秒
 
-
 import socket
 import time
 import string
