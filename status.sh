@@ -169,18 +169,18 @@ Installation_dependency(){
 		if [[ ${release} == "centos" ]]; then
 			yum update
 			if [[ -z ${python_status} ]]; then
-				yum install -y python unzip vim make
+				yum install -y python unzip make
 				yum groupinstall "Development Tools" -y
 			else
-				yum install -y unzip vim make
+				yum install -y unzip make
 				yum groupinstall "Development Tools" -y
 			fi
 		else
 			apt-get update
 			if [[ -z ${python_status} ]]; then
-				apt-get install -y python unzip vim build-essential make
+				apt-get install -y python unzip build-essential make
 			else
-				apt-get install -y unzip vim build-essential make
+				apt-get install -y unzip build-essential make
 			fi
 		fi
 	else
