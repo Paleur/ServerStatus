@@ -1,7 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
-# 依赖于psutil跨平台库
-# 支持Python版本：2.7 to 3.7
+
+# 依赖于psutil跨平台库,安装Python（支持Python版本：2.7 to 3.7）后cmd内使用下列命令安装psutil
+# python -m ensurepip
+# pip install psutil
+# 然后修改本文件相关配置运行。
+
 # 支持操作系统： Linux, Windows, OSX, Sun Solaris, FreeBSD, OpenBSD and NetBSD, both 32-bit and 64-bit architectures
 # 时间： 20201220
 # 说明: 默认情况下修改server和user就可以了。
